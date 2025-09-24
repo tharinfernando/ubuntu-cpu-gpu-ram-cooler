@@ -26,3 +26,22 @@ Clone the repository:
 git clone https://github.com/tharinfernando/ubuntu-cpu-gpu-ram-cooler.git
 cd ubuntu-cpu-gpu-ram-cooler
 chmod +x ubuntu-cpu-gpu-ram-cooler.sh
+```
+
+## Usage
+
+```bash
+sudo ./ubuntu-cpu-gpu-ram-cooler.sh
+```
+The script will automatically:
+
+1. Check CPU temperature and usage
+2. Downclock CPU & limit GPU if too hot
+3. Drop caches and reset zram
+4. Warn if heavy apps are running
+
+## Notes
+
+Requires sudo to adjust CPU/GPU settings and clear caches
+
+Adjust CPU downclock or GPU power limit directly in the script if needed
