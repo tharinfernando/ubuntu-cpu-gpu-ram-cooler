@@ -23,6 +23,6 @@ It monitors CPU temperature, downclocks CPU and limits NVIDIA GPU if needed, dro
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/ubuntu-cpu-gpu-ram-cooler.git
+git clone https://github.com/tharinfernando/ubuntu-cpu-gpu-ram-cooler.git
 cd ubuntu-cpu-gpu-ram-cooler
 chmod +x ubuntu-cpu-gpu-ram-cooler.sh
