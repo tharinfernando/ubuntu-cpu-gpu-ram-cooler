@@ -13,7 +13,7 @@ It monitors CPU temperature, downclocks CPU and limits NVIDIA GPU if needed, dro
 
 ## Requirements
 
-- Ubuntu (tested on 20.04+)  
+- Ubuntu (tested on Ubuntu 24.04.3 LTS)  
 - `lm-sensors` for CPU temperature readings  
 - `cpupower` for CPU frequency management  
 - NVIDIA drivers for GPU power control (optional)
